@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Forest</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Playfair Display', serif;
+      background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+    }
+
+    .navbar {
+      background: rgba(0, 50, 0, 0.7);
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+    }
+
+    .navbar h1 {
+      font-size: 24px;
+      color: #a8ff60;
+    }
+    h1 img{
+      width: 20px;
+
+    }
+
+    .navbar a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #fff;
+      font-size: 16px;
+      transition: 0.3s;
+    }
+
+    .navbar a:hover {
+      color: #a8ff60;
+    }
+
+    .main-text {
+      text-align: center;
+      padding-top: 25vh;
+      animation: fade 2s ease forwards;
+      opacity: 0;
+    }
+
+    .main-text h2 {
+      font-size: 60px;
+      letter-spacing: 4px;
+    }
+
+    .main-text p {
+      font-size: 20px;
+      margin-top: 10px;
+    }
+
+    footer {
+      background: rgba(0, 50, 0, 0.7);
+      text-align: center;
+      padding: 15px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    @keyframes fade {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+    }
+    .navbar a helo{
+      color: blue;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <h1>Forest <img src="logo.jpg" alt=""></h1>
+    <div>
+      <a href="forest 1.html">Join</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">contact</a>
+    </div>
+  </div>
+
+  <div class="main-text">
+    <h2>Welcome to the Forest</h2>
+    <p>Feel the peace. Breathe the green.</p>
+  </div>
+
+  <footer>
+    &copy; 2025 Forest World
+  </footer>
+  <script>
+
+  </script>
+
+</body>
+</html>
