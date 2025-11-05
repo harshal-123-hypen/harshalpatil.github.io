@@ -1,0 +1,10 @@
+emp_id - 1
+emp_name - 1
+emp_email - 1
+emp_phone - 1
+emp_type - 1
+emp_age - 1
+emp_gender - 1
+emp_pass - 1
+emp_date - 1
+emp_status - 1

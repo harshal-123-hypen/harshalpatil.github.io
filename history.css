@@ -1,0 +1,145 @@
+body {
+    background-color: rgb(46, 46, 46);
+    margin: 0;
+    padding: 0;
+}
+
+.Bar {
+    position: relative;
+}
+
+.Bar img {
+    position: absolute;
+
+
+    /* This will make the image cover the entire container */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    /* This makes the image responsive */
+    max-width: 100%;
+    height: auto;
+
+    /* This will place the image behind other elements */
+    z-index: -1;
+}
+
+
+/* CSS for larger screens */
+nav ul {
+    padding-right: 10px;
+    padding-top: 10px;
+    color: white;
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: orange;
+}
+
+
+#LogOutBtn {
+    margin-left: 800px;
+}
+
+.search__input {
+    color: #FFFFFF;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    padding: 5px 20px;
+    width: 200px;
+    height: 30px;
+    outline: none;
+    font-size: 14px;
+}
+
+.welcome:hover {
+    color: #feac40;
+    cursor: pointer;
+}
+
+
+
+.search__input::placeholder {
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.search__input:focus {
+    border-color: #feac40;
+    background-color: transparent;
+    color: #ffac40;
+}
+
+
+#LogOutBtn {
+    background: none;
+    border: none;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    cursor: pointer;
+    padding-left: 200px;
+    color: #ffffff;
+}
+
+#LogOutBtn:hover {
+    color: #feac40;
+}
+
+.imgage img {
+    /* Set the image to cover the full width of the container */
+    width: 100vw;
+    /* Set the image to cover the full height of the container */
+    height: 100vh;
+    /* Set the object-fit property to cover so the aspect ratio of the image is preserved */
+    object-fit: cover;
+    position: absolute;
+    /* Add a blur effect to the image */
+
+}
+
+.title h1 {
+    position: relative;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding-top: 20px;
+}
+
+.title {
+    /* Center the text */
+    text-align: center;
+    /* Limit the width of the content */
+    max-width: 50%;
+    /* Center the content horizontally */
+    margin: 0 auto;
+}
+
+.title p {
+    position: relative;
+    /* Remove default margins */
+    margin: 0;
+    /* Add some space at the bottom of each element */
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    text-align: justify;
+}
